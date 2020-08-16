@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="nav-vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <!-- carousel css -->
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid offer-nav text-white p-2">
+          <div class="d-flex justify-content-center">
+            <div class="border-right pt-2 pr-3 mr-3 font-weight-bold">Amazing Offers</div>
+            <div class="pr-3 mr-3 border-right font-weight-bold">
+              15% off your first purchase<br>
+              Claim Now!
+            </div>
+            <div class="pr-3 mr-3 font-weight-bold">
+              1000KSH gift card for art above 15k<br>
+              Claim Now!
+            </div>  
+          </div>
+      </div>
+      <div class="container-fluid subnav">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="border-right font-weight-bold pr-2 pt-2 pb-2 mr-2">Studio Kenya</div>
+            <div class="border-right font-weight-bold pr-2 pt-2 pb-2 mr-2">Custom Art</div>
+            <div class="border-right font-weight-bold pr-2 pt-2 pb-2 mr-2">Advisory</div>
+          </div>
+          <div class="d-flex">
+            <div class="border-right font-weight-bold pt-1 mt-1 pb-1 mb-1 mr-1 pr-1">Sign In</div>
+            <div class="font-weight-bold pt-1 mt-1 pb-1 mb-1 mr-5">Register</div>
+            <div class="d-flex">
+              <div class="ml-5 mr-3 subnav-icon"><i class="fas fa-gift"></i></div>
+              <div class="subnav-icon-badge">New</div>
+            </div>
+            <div class="ml-3 mr-3 subnav-icon"><i class="far fa-heart"></i></div>
+            <div class="ml-3 mr-5 subnav-icon"><i class="fas fa-shopping-cart"></i></div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="d-flex">
+          <div class="logo font-weight-bold mr-5">
+            <a href="#">
+              <span class="logo font-weight-bold">Studio Kenya</span>
+            </a>
+          </div>
+          <div class="d-flex nav-items mt-2 ml-5 pl-5">
+            <a href="#">Paintings</a>
+            <a href="#">Home Art</a>
+            <a href="#">Print Art</a>
+            <a href="#">Drawings</a>
+            <a href="#">Photography</a>
+            <a href="#">Art News</a>
+            <a href="#">Custom Art</a>
+          </div>
+          <div class="adv-btn pt-2 pb-2 pr-4 pl-4 ml-5 z-depth-1">
+            <a href="#">Art Advisory</a>
+          </div>
+          <div class="artist-btn pt-2 pb-2 pr-4 pl-4 ml-3 z-depth-1">
+            <a href="#">Sell Your Art</a>
+          </div>
+        </div>
+        <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
+
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      </nav>
+      <div class="container-fluid mobile-offer z-depth-1  pt-2 pb-2 ">
+        <div class="d-flex justify-content-between">
+          <div>
+            Amazing Offers
+          </div>
+          <div>
+            See Offers (2) <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-nav pt-2 pb-2 container-fluid">
+        <div class="d-flex justify-content-between">
+          <div class="mobile-menu" id="menu-toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </div>
+          <div class="ml-4 mobile-logo">
+            <a href="#">Studio Kenya</a>
+          </div>
+          <div class="d-flex mobile-icons ml-5">
+            <a href="#" class="mr-3"><i class="far fa-heart"></i></a>
+            <a href="#" class="ml-3"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid auth-nav bg-light pt-2 pb-2 z-depth-1">
+        <div class="d-flex justify-content-center">
+          <div class="login-btn mr-2 pt-1 pb-1 pl-4 pr-4">
+            <a href="#">Login</a>
+          </div>
+          <div class="register-btn ml-2 pt-1 pb-1 pl-4 pr-4">
+            <a href="#">Register</a>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel -->
+              <!--Carousel Wrapper-->
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+              <!-- carousel items -->
+              <div class="container-fluid">
+                <div class="jumbotron mt-2" style="background-image: url('img/img1.png');">
+                  <div class="jumbo-title mb-3">
+                    What`s New
+                  </div>
+                  <div class="jumbo-text">
+                    See this weeks new art selected by our best Curators
+                  </div>
+                  <div class="mt-5 mb-3">
+                    <button type="button" class="btn btn-deep-orange">Browse Art</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+              <!-- carousel items -->
+              <div class="container-fluid">
+                <div class="jumbotron mt-2" style="background-image: url('img/img3.png');">
+                  <div class="jumbo-title mb-3">
+                    Home Art
+                  </div>
+                  <div class="jumbo-text">
+                    Find art that fits your home's aesthetic at a price you will like.
+                  </div>
+                  <div class="mt-5 mb-3">
+                    <button type="button" class="btn btn-deep-orange">Browse Art</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+            </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+              <!-- carousel items -->
+              <div class="container-fluid">
+                <div class="jumbotron mt-2" style="background-image: url('img/img2.png');">
+                  <div class="jumbo-title mb-3">
+                    Discover Art
+                  </div>
+                  <div class="jumbo-text">
+                    Buy original art works from Kenya's top artists.
+                  </div>
+                  <div class="mt-5 mb-3">
+                    <button type="button" class="btn btn-deep-orange">Browse Art</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+            </div>
+            <!--/Third slide-->
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <i class="fas fa-angle-left carousel-icon"></i>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <i class="fas fa-angle-right carousel-icon"></i>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      <!-- End Carousel -->
+      <div class="container text-center">
+        <div class="font-weight-bold text-left mb-3">
+          Art selected by our top Curators
+        </div>
+        <div class="text-left">
+          Discover new and original art from top and upcoming artists in Kenya
+        </div>
+        <div class="row">
+          <div class="col card m-2 text-left">
+            <img src="img/img4.png" width="100%">
+            <div class="font-weight-bold">
+                Art for your Home
+            </div>
+            <div class="mt-2">
+              Browse art for your home by style and prefered price point
+            </div>
+            <div class="mt-3 call-btn d-flex justify-content-between pt-3 pb-3 pr-2 pl-2">
+              <div class="font-weight-bold">
+                Learn More
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+          </div> 
+        <div class="col card m-2 text-left">
+          <img src="img/img5.png" width="100%">
+            <div class="font-weight-bold">
+                New art works
+            </div>
+            <div class="mt-2">
+              View new and original art works from our artists and top curators
+            </div>
+            <div class="mt-3 call-btn d-flex justify-content-between pt-3 pb-3 pr-2 pl-2">
+              <div class="font-weight-bold">
+                Browse Art
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm card m-2 text-left">
+          <img src="img/img6.png" width="100%">
+            <div class="font-weight-bold">
+                Get Free art Advisory
+            </div>
+            <div class="mt-2">
+              Connect with Kenya's top advisors and curators and get art that meet your taste
+            </div>
+            <div class="mt-3 call-btn d-flex justify-content-between pt-3 pb-3 pr-2 pl-2">
+              <div class="font-weight-bold">
+                Request Free Advisory
+              </div>
+              <div>
+                <i class="fas fa-chevron-circle-right"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+</div>
+    <hr>
+
+      <div class="container-fluid" style="background-image: url('img/img7.png');">
+        <div class="font-weight-bold text-left mb-3">
+          View art works for sale by price
+        </div>
+        <div class="text-left">
+          Discover art works that meet your price point, take advantage of our dynamic pricing to get art in all styles that fits your budget
+        </div>
+        <div class="row">
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">0 - 5000 KSH</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">5000 - 10,000 KSH</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">10,000 - 20,000 KSH</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">20,000 - 50,000 KSH</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">50,000 - 100,000 KSH</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 card text-center m-2" style="background-color: rgba(254, 138, 0, 0.1);"> 
+            <div class="font-weight-bold mt-3 mb-3">100,000 KSH - Above</div>
+            <div class="artist-btn pt-2 pb-2 pr-4 pl-4 mt-3 mb-3 z-depth-1">
+              <a href="#">View Art</a>
+            </div>
+          </div> 
+        </div>        
+      </div>
+      <hr>
+      <div class="text-center container-fluid pt-4 pb-4" style="background-image: url('img/img8.png'); background-repeat: no-repeat; background-size: 100%;">
+         <div class="font-weight-bold mt-2 mb-2" style="font-size: 5vw;">
+           Art advisory
+         </div>
+         <div class="mt-2 mb-2" style="font-size: 3vw; background-color: rgba(255,255,255,0.4);">
+           Having difficulties choosing and find art works? Have no worries, use our FREE advisory services and get access to our top curators who will help you choose and find art that fits your specific taste.
+         </div>
+         <a href="#" type="button" class="btn btn-deep-orange">Reach Out</a href="#">
+      </div>
+      <hr>
+      <div class="container-fluid">
+        <div class="font-weight-bold text-center mt-4" style="font-size: 5vw;">
+          Art Listing
+        </div>
+        <div class="text-center">
+          Check out our catalog from our top Curators
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 art-item p-1">
+            <div class="card">
+              <img src="img/img1.png" width="100%">
+              <hr>
+              <div class="mt-2 row">
+                <div class="col-8 ">
+                  <div>Fire eyes girl</div>
+                  <div class="text-success mt-1 mb-1" style="font-size: 12px;">The chick dem</div>
+                  <div class="font-weight-bold">KSH 20,000</div>
+                </div>
+                <div class="col-4">
+                  <div><i class="far fa-heart"></i></div>
+                  <div><i class="fas fa-shopping-cart"></i></div>
+                  <div><i class="fas fa-info-circle"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="nav-vendor/jquery/jquery.min.js"></script>
+  <script src="nav-vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+  <!-- Start your project here-->
+  
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
