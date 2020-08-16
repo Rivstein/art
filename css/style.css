@@ -1,0 +1,178 @@
+ body{
+  font-family: 'Quicksand', sans-serif;
+ }
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.offer-nav{
+  background: #b71c1c;
+}
+.subnav-icon{
+  font-size: 26px;
+}
+.subnav-icon-badge{
+  background: #33b5e5;
+  max-height: 16px;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 0px 2px 0px 2px;
+  border-radius: 2px;
+  margin-left: -22px;
+}
+.logo{
+  color: black;
+  font-size: 22px;
+}
+.nav-items a{
+  color: #3F729B;
+  font-weight: bold;
+  padding: 0 10px 0 10px;
+}
+.adv-btn{
+  background: #1C2331;
+}
+.adv-btn a{
+  color: #fff;
+  font-weight: bold;
+}
+.artist-btn{
+  background: #fff;
+  border: 1px solid #00695c;
+}
+.artist-btn a{
+  color: #000;
+  font-weight: bold;
+}
+
+.mobile-nav{
+  display: none;  
+}
+.auth-nav{
+  display: none;
+}
+.login-btn{
+  background: #00C851;
+  border-radius: 4px;
+}
+.login-btn a{
+  color:#fff;
+  font-weight: bold;
+}
+.register-btn{
+  background: #33b5e5;
+  border-radius: 4px;
+}
+.register-btn a{
+  color:#fff;
+  font-weight: bold;
+}
+.mobile-menu a{
+  font-weight: bold;
+  color: black;
+  font-size: 6vw;
+}
+.mobile-logo a{
+  font-weight: bold;
+  color: black;
+  font-size: 6vw;
+}
+.mobile-icons a{
+  color: black;
+  font-size: 6vw;
+}
+.mobile-offer{
+  background: #b71c1c;
+  color: #fff;
+  display: none;
+}
+.jumbotron{
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.jumbo-title{
+  font-size: 6vw;
+  font-weight: bold;
+}
+.jumbo-text{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.carousel-icon{
+  color: #ff5722;
+  background: black;
+  padding: 8px;
+}
+
+.carousel-indicators li{
+  background-color: black;
+}
+.call-btn{
+  border-top: 1px solid black;
+}
+.call-btn:hover{
+  background-color: #fe8a00;
+}
+
+@media (min-width: 2000px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+@media (max-width: 950px) {
+  .offer-nav{
+    display: none;
+  }
+  .subnav{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+  .mobile-offer{
+    display: block;
+  }
+  .mobile-nav{
+    display: block;
+  }
+  .auth-nav{
+    display: block;
+  }
+}
